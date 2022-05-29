@@ -89,6 +89,6 @@ D:\node\node_modules
 
 <img src="https://github.com/meizp/-/blob/main/%E7%B3%BB%E7%BB%9F%E5%8F%98%E9%87%8F.png?raw=true" alt="系统变量" style="zoom:67%;" />
 
-[剩下的可观看视频来处理]([10分钟教你使用vuepress快速搭建自己的个人博客并部署服务_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1eQ4y1h7E4?spm_id_from=333.788.top_right_bar_window_history.content.click))
+[剩下的可观看视频来处理]([10分钟教你使用vuepress快速搭建自己的个人博客并部署服务_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1eQ4y1h7E4?spm_id_from=333.337.search-card.all.click))
 
 其中Windows PowerShell更改为用管理员运行cmd，使用cd命令转换到blog文件。
