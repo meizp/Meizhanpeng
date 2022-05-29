@@ -1,3 +1,12 @@
+---
+title: Java安装及环境配置
+date: 2022-5-28
+sidebar: true
+tags:
+ - tag1
+categories:
+ - category1
+---
 # Dos命令
 
 ```bash
