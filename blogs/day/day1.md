@@ -55,20 +55,21 @@ categories:
 [vuepress官网](https://www.vuepress.cn/)
 ## 步骤一：
 安装Node[Nodejs](https://nodejs.org/zh-cn/)
-推荐![nodejs](https://mzp-picture.oss-cn-hangzhou.aliyuncs.com/img/node稳定版.png)
+推荐
+
+![nodejs](https://mzp-picture.oss-cn-hangzhou.aliyuncs.com/img/node稳定版.png)
 下载开始安装
-<img src="day1/node1-16539040283071.png" style="zoom:50%;" />
+<img src="https://mzp-picture.oss-cn-hangzhou.aliyuncs.com/img/node1.png" style="zoom:50%;" />
 一路确认默认安装（可以更改安装目录)
 win + R，输入cmd进入控制台（这里建议搜索cmd命令提示符以管理员方式运行)
-<img src="day1/cmd-16539040534224.png" style="zoom: 50%;" />
-
+<img src="https://mzp-picture.oss-cn-hangzhou.aliyuncs.com/img/cmd.png" style="zoom:50%;" />
 输入node -v可显示成功安装node和版本号
-<img src="day1/node%20-v-16539040724127.png" style="zoom: 50%;" />
+<img src="https://mzp-picture.oss-cn-hangzhou.aliyuncs.com/img/node -v.png" style="zoom:50%;" />
 之后需要更改系统环境配置（安装在别的位置，即非系统默认的位置)
 
 > 在nodejs安装路径下，新建node_global和node_cache两个文件夹，这是npm安装的全局模块所在的路径，以及缓存cache的路径，之所以创建，是因为以后在执行类似：npm install express [-g] （后面的可选参数-g，g代表global全局安装的意思）的安装语句时，会将安装的模块安装到【C:\Users\用户名\AppData\Roaming\npm】路径中，占C盘空间。一般放在了 node的安装目录下。
 
-<img src="day1/%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6-165390409027510.png" style="zoom:50%;" />
+<img src="https://mzp-picture.oss-cn-hangzhou.aliyuncs.com/img/创建文件.png" style="zoom:50%;" />
 创建好文件，接着刚刚的命令提示符进行操作（按照路径去填写后部分)：
 
 ```markdown
@@ -80,7 +81,7 @@ npm config set cache "D:\node\node_cache"
 ~~C:\Users\用户名\AppData\Roaming\npm~~
 修改为D:\node\node_global
 
-<img src="day1/%E7%94%A8%E6%88%B7%E5%8F%98%E9%87%8F-165390411860913.png" style="zoom:50%;" />
+<img src="https://mzp-picture.oss-cn-hangzhou.aliyuncs.com/img/用户变量.png" style="zoom:50%;" />
 
 下半部分是系统变量，在系统变量上添加一项（按照路径）
 
@@ -89,7 +90,7 @@ NODE_PATH
 D:\node\node_modules
 ```
 
-<img src="day1/%E7%B3%BB%E7%BB%9F%E5%8F%98%E9%87%8F-165390412817016.png" style="zoom:50%;" />
+<img src="https://mzp-picture.oss-cn-hangzhou.aliyuncs.com/img/系统变量.png" style="zoom:50%;" />
 
 剩下的可观看视频来处理：https://www.bilibili.com/video/BV1eQ4y1h7E4?spm_id_from=333.337.search-card.all.click
 

@@ -50,12 +50,12 @@ JVM虚拟机
 ### 下载步骤2
 跳转到官方下载的JDK下载页面：[官方下载](https://www.oracle.com/java/technologies/downloads/)
 找到对应的JDK11版本，我这里是Windows ×64位
-<img src="day2/java.png" style="zoom:50%;" />
+<img src="https://mzp-picture.oss-cn-hangzhou.aliyuncs.com/img/java.png" style="zoom:50%;" />
 后缀exe是应用，后缀zip是压缩包，这里建议exe
 
 ### 下载步骤3
 默认安装，一路确认，建议不要安装在c盘，建议在其他盘上安装，并一定要记下路径。
-<img src="day2/java%E8%B7%AF%E5%BE%84.png" style="zoom:50%;" />
+<img src="https://mzp-picture.oss-cn-hangzhou.aliyuncs.com/img/java路径.png" style="zoom:50%;" />
 如图是我安放Java的位置，D:\java即路径。
 
 # 环境配置
@@ -64,8 +64,8 @@ JVM虚拟机
 新建
 变量名：JAVA_HOME
 变量值：路径
-![](day2/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE1.png)
+<img src="https://mzp-picture.oss-cn-hangzhou.aliyuncs.com/img/java环境变量设置1.png" style="zoom:50%;" />
 
 ### 配置步骤2
 找到系统变量里path一栏，新建%JAVA_HOME%\bin
-![](day2/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE2.png)
+![](https://mzp-picture.oss-cn-hangzhou.aliyuncs.com/img/java环境变量设置2.png)
