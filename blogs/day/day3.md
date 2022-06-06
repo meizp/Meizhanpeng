@@ -1,4 +1,14 @@
+---
+title: Java基础Ⅰ
+date: 2022-6-3
+sidebar: true
+tags:
+ - tag1
+categories:
+ - category1
+---
 # Java基础1
+
 ### idea 的快捷键，main方法和输出快捷键
 ```java
 psvm  =  public static void main(String[] ars){}

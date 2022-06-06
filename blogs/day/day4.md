@@ -1,3 +1,12 @@
+---
+title:Java基础Ⅱ
+date: 2022-6-4
+sidebar: true
+tags:
+ - tag1
+categories:
+ - category1
+---
 # Java基础2
 ### 数据类型扩展
 * 整数扩展：进制表示
