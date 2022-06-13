@@ -57,3 +57,62 @@ return 返回值;
 	System.out.println("")
 ```
 * 值传递(Java)和引用传递
+实例1：
+```java
+package Method;
+public class Demo01 {
+    //main方法
+    public static void main(String[] args) {
+        int c = add(3,4);
+        System.out.println(c);
+    }
+    //加法方法，加入static修饰词可以变成类方法可以直接使用
+    public static int add(int a,int b){
+        return a + b;
+    }
+}
+```
+运行：
+```java
+7
+```
+
+实例2：
+```java
+package Method;
+public class Demo02 {
+    //main方法
+    public static void main(String[] args) {
+        Demo02 demo02 = new Demo02();
+        int c = demo02.add(3,4);
+        System.out.println(c);
+    }
+    //加法方法，实例方法，不能直接引用
+    public int add(int a,int b){
+        return a + b;
+    }
+}
+```
+运行：
+```java
+7
+```
+
+实例3：
+```java
+package Method;
+public class Demo03 {
+    //main方法
+    public static void main(String[] args) {
+    add(3,4);
+    }
+    //加法方法，void返回空值，即要输出
+    public static void add(int a,int b){
+        System.out.println((a+b));
+    }
+}
+```
+运行：
+```java
+7
+```
