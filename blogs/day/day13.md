@@ -113,3 +113,50 @@ public class Demo03 {
 运行:
 
 <img src="https://mzp-picture.oss-cn-hangzhou.aliyuncs.com/img/数组入参和返回.png" style="zoom:50%;" />
+
+注意（数组是一个对象）：
+* for循环是可以更改原数组的值
+* for-each循环则不可以更改原数组的值
+
+实例3（for循环）：
+```java
+package com.mei.Array;
+public class Demo07 {
+    public static void main(String[] args) {
+        int[] a = {1,2,3,4,5};
+        for (int i = 0; i < a.length; i++) {
+            a[i] *= 2;
+        }
+        for (int i:a){
+            System.out.print(i+"\t");
+        }
+    }
+}
+```
+运行：
+```java
+2	4	6	8	10
+//更改了原数组的值
+```
+
+实例2（for-each循环）：
+```java
+package com.mei.Array;
+public class Demo06 {
+    public static void main(String[] args) {
+        int[] a = {1,2,3,4,5};
+        for(int i:a){//这里的i是一个副本，是基本类型
+            i = 1;//形参发生改变不影响实参
+        }
+        for (int i:a){
+            System.out.print(i + "\t");
+        }
+    }
+}
+```
+
+运行：
+```java
+1	2	3	4	5
+//未更改原数组的值
+```
